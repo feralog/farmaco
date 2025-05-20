@@ -246,7 +246,26 @@ function startQuiz(module) {
             } else {
                 // Se o usuário não quiser continuar, remove o progresso salvo
                 localStorage.removeItem(`quizProgress_${module}`);
-                 updateModuleProgress();
+                
+                // Limpa também o progresso das questões individuais para este módulo
+                Object.keys(userData.progress[module]).forEach(questionId => {
+                    userData.progress[module][questionId] = {
+                        seen: 0,
+                        correct: 0,
+                        incorrect: 0,
+                        lastSeen: null,
+                        nextReview: null,
+                        difficulty: 3,
+                        easeFactor: 2.5,
+                        interval: 1
+                    };
+                });
+                
+                // Salva as alterações
+                saveUserData();
+                
+                // Força a atualização da interface
+                updateModuleProgress();
             }
         }
     } catch (error) {

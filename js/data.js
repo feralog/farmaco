@@ -188,7 +188,7 @@ function calculateModuleProgress(module) {
     // Conta quantas questões foram respondidas corretamente pelo menos uma vez
     questions.forEach((_, index) => {
         const questionId = `${module}_${index}`;
-        if (progress[questionId] && progress[questionId].correct > 0) {
+        if (progress[questionId] && progress[questionId].seen > 0) {
             correctCount++;
         }
     });

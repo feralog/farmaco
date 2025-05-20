@@ -1,0 +1,431 @@
+[
+  {
+    "question": "Qual a principal diferença entre a COX-1 e a COX-2 em relação à sua presença no organismo?",
+    "options": [
+      "A COX-1 é induzida e a COX-2 é continuamente estimulada",
+      "A COX-1 é continuamente estimulada no organismo, enquanto a COX-2 é induzida",
+      "Ambas são continuamente estimuladas no organismo",
+      "Ambas são induzidas apenas em situações específicas",
+      "A COX-1 é induzida apenas em células especiais do pulmão, enquanto a COX-2 está presente em todo o organismo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conforme apresentado nos slides, a COX-1 é continuamente estimulada no organismo e constitutiva (sua concentração se mantém estável), enquanto a COX-2 é induzida (normalmente não está presente nas células) e é estimulada somente como parte da resposta imune. As outras alternativas estão incorretas porque invertem essas características ou apresentam informações que não correspondem ao conteúdo dos slides.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os tecidos onde a COX-2 é constitutiva, segundo o conteúdo apresentado?",
+    "options": [
+      "Estômago, intestino e rins",
+      "Fígado, pâncreas e baço",
+      "Tecido nervoso, ósseo e renal",
+      "Pulmão, coração e cérebro",
+      "Pele, músculos e articulações"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o conteúdo dos slides, a COX-2 é constitutiva para alguns tecidos específicos: nervoso, ósseo e renal (item 7 das características da COX-2). As outras alternativas estão incorretas porque não correspondem aos tecidos mencionados no material. A COX-1 é que está relacionada a tecidos como estômago e intestino, não a COX-2.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Qual o papel das prostaglandinas produzidas pela COX-1 no organismo?",
+    "options": [
+      "Sinalização da dor e da inflamação",
+      "Resposta imune e produção de citocinas",
+      "Manutenção dos processos básicos do organismo",
+      "Produção exclusiva de tromboxanos",
+      "Indução da febre e vasodilatação"
+    ],
+    "correctIndex": 2,
+    "explanation": "Segundo o material, as prostaglandinas geradas pela COX-1 são usadas na manutenção dos processos básicos do organismo. Especificamente, elas estimulam funções como produção de muco na parede do estômago, regulação do ácido gástrico e excreção de água pelos rins. As outras alternativas estão incorretas porque descrevem funções relacionadas à COX-2 (como sinalização da dor e inflamação) ou apresentam informações que não constam no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "O que estimula a produção de COX-2, de acordo com o conteúdo apresentado?",
+    "options": [
+      "Hormônios sexuais",
+      "Citocinas inflamatórias e fatores de crescimento",
+      "Ácido gástrico",
+      "Prostaglandinas constitutivas",
+      "Tromboxanos e leucotrienos"
+    ],
+    "correctIndex": 1,
+    "explanation": "De acordo com o material, a produção de COX-2 é estimulada pelas citocinas inflamatórias e pelos fatores de crescimento (item 6 das características da COX-2). As outras alternativas estão incorretas porque não são mencionadas no material como estimuladores da produção de COX-2.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os tecidos-alvo da COX-1, conforme apresentado na cascata do ácido araquidônico?",
+    "options": [
+      "Estômago, intestino, rins e plaquetas",
+      "Artrite, dor e câncer de cólon",
+      "Tecido nervoso, ósseo e renal",
+      "Pulmão, coração e cérebro",
+      "Fígado, pâncreas e baço"
+    ],
+    "correctIndex": 0,
+    "explanation": "Segundo o diagrama da cascata do ácido araquidônico apresentado nos slides, os tecidos-alvo da COX-1 (constitutiva) são: estômago, intestino, rins e plaquetas. As outras alternativas estão incorretas porque não correspondem aos tecidos-alvo da COX-1 mencionados no material. A alternativa 1 menciona doenças-alvo relacionadas à COX-2, não à COX-1.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são as doenças-alvo relacionadas à COX-2, conforme apresentado na cascata do ácido araquidônico?",
+    "options": [
+      "Úlcera péptica e hemorragia gastrointestinal",
+      "Disfunção renal e falência renal",
+      "Artrite, dor e câncer de cólon",
+      "Trombocitopenia e agranulocitose",
+      "Hepatotoxicidade e aumento de transaminases"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o diagrama da cascata do ácido araquidônico apresentado nos slides, as doenças-alvo relacionadas à COX-2 (induzível) são: artrite, dor e câncer de cólon. As outras alternativas estão incorretas porque mencionam efeitos adversos dos AINEs ou condições não especificamente relacionadas à COX-2 no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Como as prostaglandinas atuam na periferia durante o processo de dor, segundo o material?",
+    "options": [
+      "Inibindo a liberação de ácido araquidônico",
+      "Aumentando a sensibilidade do nociceptor periférico (hiperalgesia primária)",
+      "Bloqueando a expressão da COX-2",
+      "Reduzindo a sensibilização central",
+      "Inibindo a interleucina-1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conforme apresentado no slide sobre a ação periférica e central das prostaglandinas e COX-2, as prostaglandinas na periferia aumentam a sensibilidade do nociceptor periférico, causando hiperalgesia primária. As outras alternativas estão incorretas porque não correspondem à ação periférica das prostaglandinas descrita no material ou apresentam ações opostas às reais.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Qual é o papel da interleucina-1 no processo central da dor, segundo o material?",
+    "options": [
+      "Inibe a expressão da COX-2",
+      "Estimula a liberação de ácido araquidônico",
+      "Promove a expressão da COX-2",
+      "Bloqueia a produção de prostaglandinas na medula espinal",
+      "Reduz a sensibilização central"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o slide sobre a ação periférica e central das prostaglandinas e COX-2, a interleucina-1 promove a expressão da COX-2 no processo central da dor. As outras alternativas estão incorretas porque apresentam ações opostas ou não relacionadas ao papel da interleucina-1 descrito no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os inibidores altamente seletivos da COX-2 mencionados na classificação dos AINEs?",
+    "options": [
+      "Aspirina e indometacina",
+      "Piroxicam e ibuprofeno",
+      "Meloxicam e nimesulida",
+      "Celecoxib e refecoxib",
+      "Diclofenaco e salicilato"
+    ],
+    "correctIndex": 3,
+    "explanation": "Segundo a classificação dos AINEs apresentada nos slides, os inibidores altamente seletivos da COX-2 são o celecoxib e o refecoxib. As outras alternativas estão incorretas porque mencionam medicamentos que pertencem a outras categorias: aspirina (inibidor seletivo da COX-1 ou não seletivo em altas doses), piroxicam e ibuprofeno (inibidores não seletivos da COX-1), meloxicam e nimesulida (inibidores com mais ação sobre a COX-2, mas não altamente seletivos).",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são as características dos salicilatos, segundo o material?",
+    "options": [
+      "São caros e de uso restrito com prescrição",
+      "São mais comuns, mais baratos e de uso sem prescrição",
+      "Têm absorção intestinal ruim e metabolização renal",
+      "Não atravessam a placenta nem passam para o leite materno",
+      "São exclusivamente de uso parenteral"
+    ],
+    "correctIndex": 1,
+    "explanation": "De acordo com o slide sobre salicilatos, eles são os mais comuns e mais baratos, além de serem de uso sem prescrição. As outras alternativas estão incorretas porque apresentam características opostas às reais (como serem caros ou de uso restrito) ou informações que contradizem o material (como não atravessarem a placenta, quando na verdade têm distribuição ampla nos tecidos, incluindo leite materno e placenta).",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os efeitos colaterais mais frequentes dos derivados do ácido fenilacético, como o diclofenaco?",
+    "options": [
+      "Apenas erupções cutâneas e cefaleia",
+      "Apenas hepatotoxicidade",
+      "GI: sangramentos, ulcerações ou perfuração da parede e hepatotoxicidade",
+      "Apenas prolongamento do tempo de sangramento",
+      "Apenas trombocitopenia e agranulocitose"
+    ],
+    "correctIndex": 2,
+    "explanation": "Segundo o slide sobre os derivados do ácido fenilacético, os efeitos colaterais mais frequentes são gastrointestinais (GI): sangramentos, ulcerações ou perfuração da parede, além de hepatotoxicidade (aumento de transaminases). As outras alternativas estão incorretas porque mencionam apenas parte dos efeitos colaterais ou efeitos que não são os mais frequentes para esta classe específica de medicamentos.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os efeitos farmacológicos dos derivados do ácido propiônico?",
+    "options": [
+      "Apenas inibição da COX",
+      "Inibição da COX, inibição do sistema das cininas e histamina, e interferência com produção SRS",
+      "Apenas mecanismo central analgésico noradrenérgico",
+      "Apenas inibição do sistema das cininas",
+      "Apenas interferência com produção SRS"
+    ],
+    "correctIndex": 1,
+    "explanation": "De acordo com o slide sobre os derivados do ácido propiônico, seus efeitos farmacológicos incluem inibição da COX, inibição do sistema das cininas e histamina, e interferência com produção SRS. As outras alternativas estão incorretas porque mencionam apenas parte dos efeitos farmacológicos ou efeitos que não são característicos desta classe específica de medicamentos.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os efeitos colaterais mais frequentes dos derivados do oxican, como o piroxicam?",
+    "options": [
+      "Apenas efeitos gastrointestinais",
+      "GI (16%), cefaleia, zumbidos, edema, prurido, erupções cutâneas, aumento de transaminases, anemias, trombocitopenia, leucopenia, eosinofilia",
+      "Apenas anemia hemolítica",
+      "Apenas efeitos na pele e SNC",
+      "Apenas aumento de transaminases"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segundo o slide sobre os derivados do oxican, os efeitos colaterais mais frequentes são GI (16%), cefaleia, zumbidos, edema, prurido, erupções cutâneas, aumento de transaminases, anemias, trombocitopenia, leucopenia e eosinofilia. As outras alternativas estão incorretas porque mencionam apenas parte dos efeitos colaterais ou efeitos que não são os mais frequentes para esta classe específica de medicamentos.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são as contraindicações dos derivados do oxican?",
+    "options": [
+      "Apenas doença gastrointestinal",
+      "Apenas alteração na coagulação",
+      "Doença gastrointestinal e alteração na coagulação",
+      "Apenas alteração na função renal",
+      "Apenas alteração na função hepática"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o slide sobre os derivados do oxican, as contraindicações são doença gastrointestinal e alteração na coagulação. As outras alternativas estão incorretas porque mencionam apenas parte das contraindicações ou contraindicações que não são específicas para esta classe de medicamentos conforme apresentado no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os efeitos farmacológicos da nimesulida?",
+    "options": [
+      "Forte inibidor de prostaglandinas",
+      "Inibidor de prostaglandinas fraco, mecanismo central analgésico noradrenérgico e analgésico",
+      "Apenas mecanismo central analgésico noradrenérgico",
+      "Apenas analgésico",
+      "Forte inibidor de prostaglandinas e antipirético"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segundo o slide sobre os derivados da fenoximetanossulfanilida, os efeitos farmacológicos da nimesulida incluem ser um inibidor fraco de prostaglandinas, ter mecanismo central analgésico noradrenérgico e ser analgésico. As outras alternativas estão incorretas porque contradizem o material (como ser um forte inibidor de prostaglandinas) ou mencionam apenas parte dos efeitos farmacológicos.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Para quais condições o celecoxibe (Celebra®, Foxis®) é indicado, segundo o material?",
+    "options": [
+      "Apenas osteoartrite",
+      "Apenas artrite reumatoide e espondilite anquilosante",
+      "Apenas alívio da dor aguda e dismenorreia primária",
+      "Osteoartrite, artrite reumatoide, espondilite anquilosante, alívio da dor aguda, dismenorreia primária e lombalgia",
+      "Apenas lombalgia"
+    ],
+    "correctIndex": 3,
+    "explanation": "De acordo com o slide sobre o celecoxibe, ele é indicado para osteoartrite (OA), artrite reumatoide (AR), espondilite anquilosante (EA), alívio da dor aguda (principalmente no pós-operatório de cirurgia ortopédica ou dental e em afecções musculoesqueléticas), alívio dos sintomas da dismenorreia primária e da lombalgia. As outras alternativas estão incorretas porque mencionam apenas parte das indicações apresentadas no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Qual é a principal preocupação relacionada à inibição seletiva da COX-2, segundo o material?",
+    "options": [
+      "Apenas efeitos deletérios gastrointestinais",
+      "Apenas eventos cardiovasculares",
+      "Associação a sérios eventos cardiovasculares por causar desequilíbrio entre prostaciclina e tromboxano",
+      "Apenas aumento do risco de infecções",
+      "Apenas efeitos no sistema nervoso central"
+    ],
+    "correctIndex": 2,
+    "explanation": "Segundo o material, a inibição seletiva da COX-2 surgiu com o intuito de reduzir os efeitos deletérios gastrointestinais de uma inibição não seletiva; em contrapartida, a inibição exclusiva da COX-2 associou-se a sérios eventos cardiovasculares, por causar um desequilíbrio entre a produção de prostaciclina e tromboxano. As outras alternativas estão incorretas porque mencionam apenas parte das preocupações ou preocupações não destacadas no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Como o acetaminofeno (paracetamol) age, segundo o material?",
+    "options": [
+      "Inibindo seletivamente a COX-1",
+      "Inibindo seletivamente a COX-2",
+      "Talvez em COX-3, afetando somente a síntese de prostaglandinas",
+      "Inibindo igualmente COX-1 e COX-2",
+      "Bloqueando receptores de dor no sistema nervoso central"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o slide sobre o acetaminofeno, seu mecanismo de ação é descrito como 'talvez em COX-3', afetando 'somente síntese de prostaglandinas'. As outras alternativas estão incorretas porque apresentam mecanismos de ação que não são mencionados no material para o acetaminofeno.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são as características do acetaminofeno (paracetamol) em relação à função plaquetária e irritação gástrica?",
+    "options": [
+      "Afeta a função plaquetária e causa maior irritação gástrica",
+      "Afeta a função plaquetária e causa menor irritação gástrica",
+      "Não afeta a função plaquetária e causa maior irritação gástrica",
+      "Não afeta a função plaquetária e causa menor irritação gástrica",
+      "Não há informações sobre esses efeitos no material"
+    ],
+    "correctIndex": 3,
+    "explanation": "Segundo os slides sobre o acetaminofeno, ele 'não afeta função plaquetária' e causa 'menor irritação gástrica'. As outras alternativas estão incorretas porque contradizem as informações apresentadas no material sobre as características do acetaminofeno.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Quais são os principais efeitos adversos dos anti-inflamatórios, segundo o material?",
+    "options": [
+      "Apenas dispepsia e úlcera péptica",
+      "Apenas disfunção e falência renal",
+      "Apenas inibição da agregação plaquetária",
+      "Dispepsia, úlcera péptica, diarreia, hemorragia gastrointestinal, disfunção renal, inibição da agregação plaquetária, alteração dos testes de função renal e interação com outras drogas",
+      "Apenas interação com outras drogas"
+    ],
+    "correctIndex": 3,
+    "explanation": "De acordo com o slide sobre os principais efeitos adversos dos anti-inflamatórios, eles incluem dispepsia e úlcera péptica, diarreia e hemorragia gastrointestinal, disfunção e falência renal, inibição da agregação plaquetária e aumento do tempo de sangramento, alteração dos testes de função renal e icterícia, e interação com outras drogas. As outras alternativas estão incorretas porque mencionam apenas parte dos efeitos adversos apresentados no material.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Qual é a principal característica da aldosterona, segundo o material sobre a glândula suprarrenal?",
+    "options": [
+      "É um glicocorticoide produzido na zona fasciculada",
+      "É um mineralocorticoide produzido na zona glomerular",
+      "É um andrógeno produzido na zona reticular",
+      "É uma catecolamina produzida na zona medular",
+      "É um estrogênio produzido na zona fasciculada"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segundo o slide sobre a glândula suprarrenal, a aldosterona é um mineralocorticoide produzido na zona glomerular. As outras alternativas estão incorretas porque atribuem características incorretas à aldosterona ou a classificam erroneamente como outro tipo de hormônio.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Qual é o papel fisiológico da aldosterona, segundo o material?",
+    "options": [
+      "Estimular a gliconeogênese",
+      "Modular o processo inflamatório e imunológico",
+      "Aumentar a reabsorção renal de sódio, H+, água e excreção de potássio",
+      "Regular o metabolismo ósseo",
+      "Modular a função do SNC"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o slide sobre a aldosterona, ela é responsável por aumentar a reabsorção renal no tubo coletor de sódio, H+, água e excreção do potássio, com o objetivo de regular a volemia e estimular o aumento da pressão arterial. As outras alternativas estão incorretas porque descrevem funções de outros hormônios, como os glicocorticoides, não da aldosterona.",
+    "type": "conteudista"
+  },
+  {
+    "question": "Qual é o principal papel fisiológico dos glicocorticoides, como o cortisol, segundo o material?",
+    "options": [
+      "Apenas estimular a gliconeogênese",
+      "Apenas modular o processo inflamatório e imunológico",
+      "Apenas manter a reatividade vascular",
+      "Estimular a gliconeogênese, modular processos inflamatórios e imunológicos, manter a reatividade vascular, regular o metabolismo ósseo, aumentar a filtração renal e modular a função do SNC",
+      "Apenas regular o metabolismo ósseo"
+    ],
+    "correctIndex": 3,
+    "explanation": "Segundo o slide sobre o papel fisiológico dos glicocorticoides, o cortisol (hidrocortisona) tem múltiplas funções: estimula a gliconeogênese, modula o processo inflamatório e imunológico, mantém a reatividade vascular, regula o metabolismo ósseo, aumenta a filtração renal e modula a função do SNC (estresse). As outras alternativas estão incorretas porque mencionam apenas parte das funções fisiológicas dos glicocorticoides apresentadas no material.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com histórico de doença cardiovascular necessita de um anti-inflamatório para tratamento de osteoartrite. Com base no conteúdo apresentado, qual seria a recomendação mais adequada?",
+    "options": [
+      "Prescrever um inibidor seletivo da COX-2 em dose alta por tempo prolongado",
+      "Prescrever um inibidor seletivo da COX-2 em dose alta por tempo curto",
+      "Prescrever um inibidor seletivo da COX-2 em dose baixa pelo menor tempo necessário, apenas se não houver alternativa apropriada",
+      "Prescrever qualquer AINE sem preocupação com o risco cardiovascular",
+      "Prescrever exclusivamente inibidores seletivos da COX-2, pois não apresentam risco cardiovascular"
+    ],
+    "correctIndex": 2,
+    "explanation": "De acordo com o material, em pacientes com história prévia de doença cardiovascular ou com alto risco para desenvolvê-la, o uso de inibidores da COX-2 deve ser limitado àqueles para os quais não há alternativa apropriada e, mesmo assim, somente em doses baixas e pelo menor tempo necessário. As outras alternativas estão incorretas porque contradizem as recomendações apresentadas no material, seja por sugerir doses altas, tempo prolongado ou por ignorar o risco cardiovascular associado aos inibidores da COX-2.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente apresenta dor moderada a grave no pós-operatório de cirurgia ortopédica. Com base no conteúdo apresentado, qual medicamento seria mais indicado para esta situação?",
+    "options": [
+      "Ácido mefenâmico",
+      "Trometamol cetorolaco",
+      "Ácido acetilsalicílico",
+      "Acetaminofeno",
+      "Ácido flufenâmico"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segundo o slide sobre o trometamol cetorolaco (Toragesic®), ele é indicado via oral para tratamentos curtos de dor moderada a grave e via parenteral em pós-operatórios nas situações de dor aguda a grave. O material destaca que é um medicamento muito empregado para tratamentos de dor aguda. As outras alternativas estão incorretas porque não são especificamente mencionadas no material como indicadas para dor pós-operatória aguda a grave.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com histórico de úlcera péptica necessita de um anti-inflamatório. Com base no conteúdo apresentado, qual seria a escolha mais adequada?",
+    "options": [
+      "Piroxicam",
+      "Indometacina",
+      "Diclofenaco",
+      "Celecoxib",
+      "Ácido mefenâmico"
+    ],
+    "correctIndex": 3,
+    "explanation": "De acordo com o material, os inibidores seletivos da COX-2, como o celecoxib, surgiram com o intuito de reduzir os efeitos deletérios gastrointestinais de uma inibição não seletiva. Para um paciente com histórico de úlcera péptica, um inibidor seletivo da COX-2 seria mais adequado para minimizar o risco de complicações gastrointestinais. As outras alternativas estão incorretas porque são medicamentos não seletivos ou com maior ação sobre a COX-1, que estão mais associados a efeitos gastrointestinais adversos, como dispepsia, úlcera péptica e hemorragia gastrointestinal, conforme mencionado nos principais efeitos adversos dos anti-inflamatórios.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente apresenta febre e necessita de um medicamento antipirético. Com base no conteúdo apresentado, qual seria a escolha mais adequada para uma criança?",
+    "options": [
+      "Ácido acetilsalicílico",
+      "Diclofenaco",
+      "Ibuprofeno",
+      "Acetaminofeno (paracetamol)",
+      "Piroxicam"
+    ],
+    "correctIndex": 3,
+    "explanation": "Segundo o slide sobre o acetaminofeno, ele é a escolha para febre em crianças e doentes com afecções sanguíneas, pois causa menor irritação gástrica e não afeta a função plaquetária. As outras alternativas estão incorretas porque não são especificamente mencionadas no material como indicadas para febre em crianças ou podem apresentar efeitos adversos mais significativos, como o ácido acetilsalicílico, que afeta a função plaquetária.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com insuficiência renal necessita de um anti-inflamatório. Com base no conteúdo apresentado, qual seria a principal preocupação ao prescrever AINEs para este paciente?",
+    "options": [
+      "Apenas o risco de hepatotoxicidade",
+      "Apenas o risco de erupções cutâneas",
+      "Apenas o risco de interações medicamentosas",
+      "O risco de disfunção e falência renal, incluindo necrose papilar aguda e nefrite intersticial crônica",
+      "Apenas o risco de prolongamento do tempo de sangramento"
+    ],
+    "correctIndex": 3,
+    "explanation": "De acordo com o slide sobre os principais efeitos adversos dos anti-inflamatórios, eles podem causar disfunção e falência renal, incluindo necrose papilar aguda, nefrite intersticial crônica, diminuição do fluxo sanguíneo renal e do ritmo de filtração glomerular e retenção de sal e água. Para um paciente com insuficiência renal preexistente, estes efeitos representam a principal preocupação. As outras alternativas estão incorretas porque, embora possam ser efeitos adversos dos AINEs, não são as principais preocupações para um paciente com insuficiência renal.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com hipertensão arterial controlada com valsartana necessita de um anti-inflamatório. Com base no conteúdo apresentado, qual seria a interação medicamentosa a ser considerada?",
+    "options": [
+      "A valsartana potencializa o efeito anti-inflamatório dos AINEs",
+      "Os AINEs não interferem com o efeito da valsartana",
+      "A valsartana é um inibidor de receptores de aldosterona que provoca queda da pressão arterial, e os AINEs podem interferir nesse efeito",
+      "A valsartana aumenta a excreção renal dos AINEs",
+      "Os AINEs aumentam o efeito hipotensor da valsartana"
+    ],
+    "correctIndex": 2,
+    "explanation": "Segundo o slide sobre a aldosterona, fármacos inibidores de receptores de aldosterona, como a valsartana (BRA - Bloqueador do Receptor de Angiotensina), provocam a queda da pressão arterial. Os AINEs, por sua vez, podem causar retenção de sal e água e diminuição do fluxo sanguíneo renal, conforme mencionado nos efeitos adversos, o que pode interferir no efeito hipotensor da valsartana. As outras alternativas estão incorretas porque apresentam interações que não são mencionadas no material ou que contradizem os mecanismos de ação descritos.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com histórico de sangramento gastrointestinal necessita de um anti-inflamatório para tratamento de dor crônica. Com base no conteúdo apresentado, qual seria a contraindicação mais relevante?",
+    "options": [
+      "Os derivados do oxican são contraindicados para pacientes com doença gastrointestinal e alteração na coagulação",
+      "Os fenamatos não têm contraindicações para pacientes com doença gastrointestinal",
+      "Os derivados do ácido propiônico são a melhor escolha para pacientes com histórico de sangramento gastrointestinal",
+      "O acetaminofeno é contraindicado para pacientes com histórico de sangramento gastrointestinal",
+      "Os inibidores seletivos da COX-2 são contraindicados para todos os pacientes com histórico de sangramento gastrointestinal"
+    ],
+    "correctIndex": 0,
+    "explanation": "De acordo com o slide sobre os derivados do oxican, eles são contraindicados para pacientes com doença gastrointestinal e alteração na coagulação. Para um paciente com histórico de sangramento gastrointestinal, esta seria a contraindicação mais relevante. As outras alternativas estão incorretas porque apresentam informações que não constam no material ou que contradizem as contraindicações mencionadas. Por exemplo, os fenamatos também são contraindicados para doença gastrointestinal, conforme mencionado no slide correspondente.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente necessita de um anti-inflamatório com efeito analgésico central. Com base no conteúdo apresentado, qual seria a escolha mais adequada?",
+    "options": [
+      "Ácido acetilsalicílico",
+      "Diclofenaco",
+      "Nimesulida",
+      "Piroxicam",
+      "Ibuprofeno"
+    ],
+    "correctIndex": 2,
+    "explanation": "Segundo o slide sobre os derivados da fenoximetanossulfanilida, a nimesulida possui mecanismo central analgésico noradrenérgico, além de ser um inibidor fraco de prostaglandinas e ter efeito analgésico. Para um paciente que necessita de um anti-inflamatório com efeito analgésico central, a nimesulida seria a escolha mais adequada entre as opções apresentadas. As outras alternativas estão incorretas porque não são especificamente mencionadas no material como tendo mecanismo central analgésico.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com artrite reumatoide e histórico de úlcera péptica necessita de um anti-inflamatório. Com base no conteúdo apresentado, qual seria o balanço risco/benefício a ser considerado na prescrição?",
+    "options": [
+      "Os inibidores seletivos da COX-2 não apresentam risco cardiovascular e são a melhor escolha",
+      "Os inibidores não seletivos são sempre contraindicados para pacientes com histórico de úlcera péptica",
+      "O acetaminofeno é a única opção segura para pacientes com histórico de úlcera péptica",
+      "Os inibidores seletivos da COX-2 reduzem o risco gastrointestinal, mas podem aumentar o risco cardiovascular, e devem ser prescritos após consideração do balanço risco/benefício",
+      "Não há opções seguras de anti-inflamatórios para pacientes com histórico de úlcera péptica"
+    ],
+    "correctIndex": 3,
+    "explanation": "De acordo com o material, os inibidores seletivos da COX-2 surgiram com o intuito de reduzir os efeitos deletérios gastrointestinais de uma inibição não seletiva, mas a inibição exclusiva da COX-2 associou-se a sérios eventos cardiovasculares. O material também menciona que todos os fármacos do largo espectro dos AINEs somente devem ser prescritos após consideração do balanço risco/benefício. Para um paciente com artrite reumatoide (uma das indicações do celecoxib) e histórico de úlcera péptica, seria necessário considerar o risco gastrointestinal reduzido dos inibidores seletivos da COX-2 versus o potencial risco cardiovascular. As outras alternativas estão incorretas porque apresentam informações absolutas que não refletem a nuance da consideração do balanço risco/benefício mencionada no material.",
+    "type": "raciocinio"
+  },
+  {
+    "question": "Um paciente com osteoartrite e função renal comprometida necessita de um anti-inflamatório. Com base no conteúdo apresentado, qual seria a preocupação específica com os fenamatos?",
+    "options": [
+      "Os fenamatos não têm contraindicações para pacientes com função renal comprometida",
+      "Os fenamatos são contraindicados para pacientes com alteração na função renal",
+      "Os fenamatos são a melhor escolha para pacientes com função renal comprometida",
+      "Os fenamatos afetam apenas a função hepática, não a renal",
+      "Os fenamatos são contraindicados apenas para pacientes com doença gastrointestinal, não com função renal comprometida"
+    ],
+    "correctIndex": 1,
+    "explanation": "Segundo o slide sobre os fenamatos, eles são contraindicados para pacientes com doença gastrointestinal e alteração na função renal. Para um paciente com função renal comprometida, esta seria uma contraindicação específica a ser considerada. As outras alternativas estão incorretas porque contradizem a informação apresentada no material sobre as contraindicações dos fenamatos.",
+    "type": "raciocinio"
+  }
+]

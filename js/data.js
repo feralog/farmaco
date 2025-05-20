@@ -33,29 +33,45 @@ let userData = {
  */
 function loadAllQuestions() {
     return Promise.all([
-        fetch('/questoes_AINES_E_AIES.json')
+        fetch('./questoes_AINES_E_AIES.json')
             .then(response => response.json())
             .then(data => {
                 questionsData.AINES_E_AIES = data;
                 initializeQuestionProgress('AINES_E_AIES');
+            })
+            .catch(error => {
+                console.error('Erro ao carregar AINES_E_AIES:', error);
+                alert('Erro ao carregar questões de AINES E AIES. Verifique o console para mais detalhes.');
             }),
-        fetch('/questoes_Anestesicos_Gerais.json')
+        fetch('./questoes_Anestesicos_Gerais.json')
             .then(response => response.json())
             .then(data => {
                 questionsData.Anestesicos_Gerais = data;
                 initializeQuestionProgress('Anestesicos_Gerais');
+            })
+            .catch(error => {
+                console.error('Erro ao carregar Anestesicos_Gerais:', error);
+                alert('Erro ao carregar questões de Anestésicos Gerais. Verifique o console para mais detalhes.');
             }),
-        fetch('/questoes_Anestesicos_Locais.json')
+        fetch('./questoes_Anestesicos_Locais.json')
             .then(response => response.json())
             .then(data => {
                 questionsData.Anestesicos_Locais = data;
                 initializeQuestionProgress('Anestesicos_Locais');
+            })
+            .catch(error => {
+                console.error('Erro ao carregar Anestesicos_Locais:', error);
+                alert('Erro ao carregar questões de Anestésicos Locais. Verifique o console para mais detalhes.');
             }),
-        fetch('/questoes_ATIPICOS.json')
+        fetch('./questoes_ATIPICOS.json')
             .then(response => response.json())
             .then(data => {
                 questionsData.ATIPICOS = data;
                 initializeQuestionProgress('ATIPICOS');
+            })
+            .catch(error => {
+                console.error('Erro ao carregar ATIPICOS:', error);
+                alert('Erro ao carregar questões de Antipsicóticos Atípicos. Verifique o console para mais detalhes.');
             })
     ]);
 }

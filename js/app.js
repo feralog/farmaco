@@ -246,6 +246,7 @@ function startQuiz(module) {
             } else {
                 // Se o usuário não quiser continuar, remove o progresso salvo
                 localStorage.removeItem(`quizProgress_${module}`);
+                 updateModuleProgress();
             }
         }
     } catch (error) {

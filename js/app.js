@@ -244,29 +244,33 @@ function startQuiz(module) {
                 
                 console.log(`Progresso recuperado para ${module}:`, progress);
             } else {
-                // Se o usuário não quiser continuar, remove o progresso salvo
-                localStorage.removeItem(`quizProgress_${module}`);
-                
-                // Limpa também o progresso das questões individuais para este módulo
-                Object.keys(userData.progress[module]).forEach(questionId => {
-                    userData.progress[module][questionId] = {
-                        seen: 0,
-                        correct: 0,
-                        incorrect: 0,
-                        lastSeen: null,
-                        nextReview: null,
-                        difficulty: 3,
-                        easeFactor: 2.5,
-                        interval: 1
-                    };
-                });
-                
+            // Se o usuário não quiser continuar, remove o progresso salvo
+            localStorage.removeItem(`quizProgress_${module}`);
+    
+            // Limpa também o progresso das questões individuais para este módulo
+            Object.keys(userData.progress[module]).forEach(questionId => {
+            userData.progress[module][questionId] = {
+            seen: 0,
+            correct: 0,
+            incorrect: 0,
+            lastSeen: null,
+            nextReview: null,
+            difficulty: 3,
+            easeFactor: 2.5,
+            interval: 1
+                };
+            });
+    
                 // Salva as alterações
-                saveUserData();
-                
-                // Força a atualização da interface
-                updateModuleProgress();
-            }
+            saveUserData();
+    
+            // Informa ao usuário
+            alert("Progresso resetado. A página será recarregada para aplicar as mudanças.");
+            
+    // Recarrega a página para garantir que tudo seja atualizado
+            window.location.reload();
+            return; // Importante para interromper a execução da função
+        }
         }
     } catch (error) {
         console.error("Erro ao recuperar progresso:", error);

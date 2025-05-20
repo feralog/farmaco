@@ -209,6 +209,30 @@ function startQuiz(module) {
     currentQuestionIndex = 0;
     correctAnswers = 0;
     incorrectAnswers = 0;
+    quizSeconds = 0;
+    
+    // Tenta recuperar o progresso salvo
+    try {
+        const savedProgress = localStorage.getItem(`quizProgress_${module}`);
+        if (savedProgress) {
+            const progress = JSON.parse(savedProgress);
+            
+            // Pergunta ao usuário se deseja continuar de onde parou
+            if (confirm(`Você tem um progresso salvo neste módulo. Deseja continuar de onde parou (questão ${progress.index + 1})?`)) {
+                currentQuestionIndex = Math.min(progress.index, currentQuestions.length - 1);
+                correctAnswers = progress.correct || 0;
+                incorrectAnswers = progress.incorrect || 0;
+                quizSeconds = progress.time || 0;
+                
+                console.log(`Progresso recuperado para ${module}:`, progress);
+            } else {
+                // Se o usuário não quiser continuar, remove o progresso salvo
+                localStorage.removeItem(`quizProgress_${module}`);
+            }
+        }
+    } catch (error) {
+        console.error("Erro ao recuperar progresso:", error);
+    }
     
     // Mostra a tela do quiz
     showQuizScreen();
@@ -481,6 +505,22 @@ function nextQuestion() {
  */
 function quitQuiz() {
     if (confirm('Tem certeza que deseja sair do quiz? Seu progresso será salvo.')) {
+        try {
+            // Salva o progresso atual do módulo
+            if (!isReviewMode) {
+                const moduleProgress = {
+                    index: currentQuestionIndex,
+                    correct: correctAnswers,
+                    incorrect: incorrectAnswers,
+                    time: quizSeconds
+                };
+                localStorage.setItem(`quizProgress_${currentModule}`, JSON.stringify(moduleProgress));
+                console.log(`Progresso salvo para ${currentModule}:`, moduleProgress);
+            }
+        } catch (error) {
+            console.error("Erro ao salvar progresso:", error);
+        }
+        
         stopTimer();
         showModuleSelectionScreen();
     }

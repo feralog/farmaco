@@ -207,14 +207,6 @@ function startQuiz(module) {
     
     // Reinicia as variáveis do quiz
     currentQuestionIndex = 0;
-
-  // Adicione estas linhas para recuperar o último índice de questão
-    const lastQuestionIndex = localStorage.getItem(`lastQuestion_${module}`);
-    if (lastQuestionIndex) {
-        currentQuestionIndex = parseInt(lastQuestionIndex);
-        // Limitar ao número máximo de questões (caso tenha mudado)
-        currentQuestionIndex = Math.min(currentQuestionIndex, currentQuestions.length - 1);
-    }
     correctAnswers = 0;
     incorrectAnswers = 0;
     
@@ -489,7 +481,6 @@ function nextQuestion() {
  */
 function quitQuiz() {
     if (confirm('Tem certeza que deseja sair do quiz? Seu progresso será salvo.')) {
-        localStorage.setItem(lastQuestion_${currentModule}, currentQuestionIndex.toString());
         stopTimer();
         showModuleSelectionScreen();
     }

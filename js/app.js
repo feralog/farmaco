@@ -63,6 +63,7 @@ async function init() {
  * Configura todos os event listeners
  */
 function setupEventListeners() {
+    document.getElementById('reset-progress-btn').addEventListener('click', resetAllProgress);
     // Login form
     document.getElementById('login-form').addEventListener('submit', handleLogin);
     
@@ -103,6 +104,23 @@ function setupEventListeners() {
     window.addEventListener('beforeunload', saveUserData);
 }
 
+function resetAllProgress() {
+  if (confirm('ATENÇÃO: Isso apagará todo o seu progresso em todos os módulos. Esta ação não pode ser desfeita. Deseja continuar?')) {
+    try {
+      // Remove todos os dados do localStorage
+      clearUserData();
+      
+      // Feedback visual
+      alert('Progresso resetado com sucesso! O aplicativo será recarregado.');
+      
+      // Recarrega a página para aplicar as mudanças
+      window.location.reload();
+    } catch (error) {
+      console.error("Erro ao resetar progresso:", error);
+      alert('Ocorreu um erro ao tentar resetar o progresso. Por favor, tente novamente.');
+    }
+  }
+}
 /**
  * Manipula o envio do formulário de login
  * @param {Event} event - Evento de submit

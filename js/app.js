@@ -331,7 +331,8 @@ function showQuizScreen() {
             'AINES_E_AIES': 'AINES E AIES',
             'Anestesicos_Gerais': 'Anestésicos Gerais',
             'Anestesicos_Locais': 'Anestésicos Locais',
-            'ATIPICOS': 'Antipsicóticos Atípicos'
+            'ATIPICOS': 'Antipsicóticos Atípicos',
+            'Opioides': 'Opioides'
         }[currentModule] || currentModule;
     }
     

@@ -221,7 +221,7 @@ function startQuiz(module) {
     currentQuestions = getModuleQuestions(module);
     
     // Embaralha as questões
-    shuffleArray(currentQuestions);
+  //  shuffleArray(currentQuestions);
     
     // Reinicia as variáveis do quiz
     currentQuestionIndex = 0;

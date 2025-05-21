@@ -87,7 +87,7 @@ function loadAllQuestions() {
                 console.error('Erro ao carregar Opioides:', error);
                 alert('Erro ao carregar questões de Opioides. Verifique o console para mais detalhes.');
             })
-    );
+    
 }
 
 /**

@@ -274,7 +274,7 @@ function updateQuestionProgress(module, questionIndex, isCorrect, difficulty) {
  * @param {number} limit - Número máximo de questões a retornar
  * @returns {Array} Array de objetos com módulo e índice das questões para revisão
  */
-function getQuestionsForReview(limit = 20) {
+function getQuestionsForReview(limit = 90) {
     const now = new Date();
     const questionsForReview = [];
     

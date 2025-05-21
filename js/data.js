@@ -12,7 +12,8 @@ const questionsData = {
     AINES_E_AIES: [],
     Anestesicos_Gerais: [],
     Anestesicos_Locais: [],
-    ATIPICOS: []
+    ATIPICOS: [],
+    Opoides: []
 };
 
 // Objeto para armazenar os dados do usuário
@@ -22,7 +23,8 @@ let userData = {
         AINES_E_AIES: {},
         Anestesicos_Gerais: {},
         Anestesicos_Locais: {},
-        ATIPICOS: {}
+        ATIPICOS: {},
+        Opoides: {}
     },
     lastSession: null
 };
@@ -72,6 +74,18 @@ function loadAllQuestions() {
             .catch(error => {
                 console.error('Erro ao carregar ATIPICOS:', error);
                 alert('Erro ao carregar questões de Antipsicóticos Atípicos. Verifique o console para mais detalhes.');
+            })
+    ]);
+    // Adicione este novo bloco:
+        fetch('./questoes_Opioides.json')
+            .then(response => response.json())
+            .then(data => {
+                questionsData.Opioides = data;
+                initializeQuestionProgress('Opioides');
+            })
+            .catch(error => {
+                console.error('Erro ao carregar Opioides:', error);
+                alert('Erro ao carregar questões de Opioides. Verifique o console para mais detalhes.');
             })
     ]);
 }

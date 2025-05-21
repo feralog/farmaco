@@ -354,7 +354,8 @@ function clearUserData() {
             AINES_E_AIES: {},
             Anestesicos_Gerais: {},
             Anestesicos_Locais: {},
-            ATIPICOS: {}
+            ATIPICOS: {},
+            Opioides: {} 
         },
         lastSession: null
     };
